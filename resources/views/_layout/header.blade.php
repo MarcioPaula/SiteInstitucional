@@ -12,8 +12,8 @@
         <a href="#" class="brand-logo"><img width="250" src="{{asset('images/logo.png')}}" alt=""></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down ">
             <li><a href="/">Pagina Inicial</a></li>
-            <li><a href="#">Produtos</a></li>
-            <li><a href="#">Sobre nós</a></li>
+            <li><a href="/Solicitar">Solicite um orçamento</a></li>
+            <li><a href="/#sobre">Sobre nós</a></li>
         </ul>
     </div>
 </nav>

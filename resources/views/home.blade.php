@@ -22,11 +22,11 @@
                             <p>Solicite o seu site personalizado para divulgar a sua marca e atrair mais clientes</p>
                         </div>
                         <div class="card-action">
-                            <a href="#">Solicitar site</a>
+                            <a href="/Solicitar">Solicitar site</a>
                         </div>
                     </div>
                 </div>
-                <div class="col s12 m3">
+               <!-- <div class="col s12 m3">
                     <div class="card">
                         <div class="card-image">
                             <img src="{{asset('images/parceiros.jpg')}}">
@@ -40,7 +40,7 @@
                             <a href="#parceiros">Parceiros</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="col s12 m3">
                     <div class="card">
                         <div class="card-image">
@@ -62,29 +62,17 @@
         <div class="parallax"><img src="{{asset('images/parallax1.jpg')}}"></div>
     </div>
 
-    <div id="parceiros">
+   <!-- <div id="parceiros">
         <h3 class="center">Nossos parceiros</h3>
         <div class="row center ">
             <div class="col m8 offset-m2 ">
-                <img width="150" src="{{asset('images/logo_senac_default.png')}}" alt="">
-                &nbsp
-                &nbsp
-                &nbsp
-                &nbsp
-                &nbsp
-                &nbsp
-                <img width="150" src="{{asset('images/logo-ufenesp.png')}}" alt="">
-                &nbsp
-                &nbsp
-                &nbsp
-                &nbsp
-                &nbsp
-                &nbsp
+                <img width="150" src="{{asset('images/logo_senac_default.png')}}" alt=""> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                <img width="150" src="{{asset('images/logo-ufenesp.png')}}" alt=""> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
                 <img class="grey" width="150" src="{{asset('images/swfast-logo.png')}}" alt="">
 
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="parallax-container" id="parallax2">
         <div class="parallax"><img src="{{asset('images/parallax1.jpg')}}"></div>
