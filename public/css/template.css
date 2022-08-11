@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: Arial;
+}
+
+#cards{margin-left: 100px !important;}
+
+
+main {
+    flex: 1 0 auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#parallax1{
+    height: 300px;
+}
+
+#parallax2{
+    height: 50px;
+}
+
+#topoSeta{
+    color: black;
+    margin-right: 10px;
+}
+
+.nav-wrapper li a{
+    color: black !important;
+}
+
+.page-footer li a{
+    color: black !important;
+}
