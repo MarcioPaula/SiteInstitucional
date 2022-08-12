@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\OrcamentoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,4 +20,14 @@ Route::get('/', function () {
 
 Route::get('/Solicitar', function () {
     return view('solicitar');
-});
+})->name('solicitar');
+
+Route::get('/Solicitar/email', function (){
+
+    $user = new stdClass();
+    $user->name = 'Márcio';
+    $user->email = 'marciogspaula@gmail.com';
+    \Illuminate\Support\Facades\Mail::send(new \App\Mail\orcamento($user));
+
+
+})->name('email');

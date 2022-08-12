@@ -4,7 +4,7 @@
 
 @section('conteudo')
 
-    
+
     <div class="parallax-container" id="parallax2">
         <div class="parallax"><img src="{{asset('images/parallax1.jpg')}}"></div>
     </div>
@@ -13,9 +13,9 @@
 
         <h3 class="center">Solicite um orçamento</h3>
 
-        <div class="col m4 offset-m4">
+        <div class="col m8 offset-m2">
 
-            <form action="">
+            <form action="{{route('email')}}">
 
                 <div class="input-field">
                     <input placeholder="Nome" required id="first_name" type="text" class="validate">
@@ -28,7 +28,7 @@
                 </div>
                 <br>
                 <div class="input-field">
-                    <input placeholder="Telefone" required id="first_name" type="text" class="validate">
+                    <input placeholder="Telefone" required id="first_name" type="number" class="validate">
                     <label for="first_name">Telefone</label>
                 </div>
                 <br>
