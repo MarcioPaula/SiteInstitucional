@@ -22,7 +22,7 @@
                             <p>Solicite o seu site personalizado para divulgar a sua marca e atrair mais clientes</p>
                         </div>
                         <div class="card-action">
-                            <a href="/Solicitar">Solicitar site</a>
+                            <a href="">Solicitar site</a>
                         </div>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
         <h3 class="center">Sobre nós</h3>
         <div class="row center">
             <div class="col m4 offset-m4">
-                <p>A Empresa Vortex, é nova no mercado criada para ajudar as pequenas empresas e empresarios a criar seu primeiro site institucional. Temos em nossa visão crescimento, para um dia se tornar uma grande empresa de desenvolvimento de softwares e sites</p>
+                <p>Nosso foco é ajudar as pequenas empresas e empresarios a criar seu primeiro site institucional. Temos em nossa visão crescimento, para um dia se tornar uma grande empresa de desenvolvimento de softwares e sites</p>
 
                 <img src="{{asset('images/logo.png')}}" alt="">
             </div>
