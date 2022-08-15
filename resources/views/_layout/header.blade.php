@@ -13,7 +13,7 @@
         <a href="#" class="brand-logo"><img width="250" src="{{asset('images/logo.png')}}" alt=""></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down ">
             <li><a href="/">Pagina Inicial</a></li>
-            <li><a href="">Solicite um orçamento</a></li>
+            <li><a href="/#solicite">Solicite um orçamento</a></li>
             <li><a href="/#sobre">Sobre nós</a></li>
         </ul>
     </div>

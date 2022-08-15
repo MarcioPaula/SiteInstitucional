@@ -22,7 +22,7 @@
                             <p>Solicite o seu site personalizado para divulgar a sua marca e atrair mais clientes</p>
                         </div>
                         <div class="card-action">
-                            <a href="">Solicitar site</a>
+                            <a href="#solicite">Solicitar site</a>
                         </div>
                     </div>
                 </div>
@@ -90,9 +90,23 @@
         </div>
     </div>
 
-    <div id="parallax1" class="parallax-container">
+    <div id="parallax2" class="parallax-container">
         <div class="parallax"><img src="{{asset('images/parallax1.jpg')}}"></div>
     </div>
 
+    <div id="solicite">
+        <h3 class="center">Solicite seu site</h3>
+        <div class="row center">
+            <div class="col m4 offset-m4">
+                <p>Solicite orçamento através do email e retornaremos com as melhores propostas</p>
+                <p><i class="fas fa-envelope"></i> contato@vortexsites.com.br</p>
+            </div>
+        </div>
+    </div>
+
+    
+    <div id="parallax1" class="parallax-container">
+        <div class="parallax"><img src="{{asset('images/parallax1.jpg')}}"></div>
+    </div>
 
 @endsection
