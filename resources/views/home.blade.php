@@ -5,25 +5,22 @@
 @section('conteudo')
 
     <div class="parallax-container" id="parallax1">
-        <div class="parallax"><img src="{{asset('images/parallax1.jpg')}}"></div>
+        <div class="parallax"><img  src="{{asset('images/parallax1.jpg')}}"></div>
     </div>
 
             <h3 class="center">Para você</h3>
 
             <div class="row" id="cards">
 
-                <div class="col s12 m3 offset-m1">
+                <div class="col s11 m3 offset-m1 ">
                     <div class="card">
+                        <a href="#solicite">
                         <div class="card-image">
-                            <img src="{{asset('images/solicite.jpg')}}">
+                            <img height="200" src="{{asset('images/solicite.jpg')}}">
                             <span class="card-title black">Solicite o seu site</span>
                         </div>
-                        <div class="card-content">
-                            <p>Solicite o seu site personalizado para divulgar a sua marca e atrair mais clientes</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#solicite">Solicitar site</a>
-                        </div>
+                        </a>
+
                     </div>
                 </div>
                <!-- <div class="col s12 m3">
@@ -41,26 +38,20 @@
                         </div>
                     </div>
                 </div> -->
-                <div class="col s12 m3">
+                <div class="col s11 m3">
+                    <a href="#sobre">
                     <div class="card">
                         <div class="card-image">
-                            <img src="{{asset('images/sobre.jpg')}}">
+                            <img height="200" src="{{asset('images/sobre.jpg')}}">
                             <span class="card-title  black">Sobre nós</span>
                         </div>
-                        <div class="card-content">
-                            <p>Conheça um pouco sobre a vortex sites e solicite o seu proprio site</p>
-                            <br>
-                        </div>
-                        <div class="card-action">
-                            <a href="#sobre">Sobre nós</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-    <div class="parallax-container" id="parallax2">
-        <div class="parallax"><img src="{{asset('images/parallax1.jpg')}}"></div>
-    </div>
+                    </div>
+                    </a>
+                </div>
+
+
+            </div>  <br>
 
    <!-- <div id="parceiros">
         <h3 class="center">Nossos parceiros</h3>
@@ -74,37 +65,32 @@
         </div>
     </div> -->
 
-    <div class="parallax-container" id="parallax2">
-        <div class="parallax"><img src="{{asset('images/parallax1.jpg')}}"></div>
-    </div>
-
-
-    <div id="sobre">
-        <h3 class="center">Sobre nós</h3>
-        <div class="row center">
-            <div class="col m4 offset-m4">
-                <p>Nosso foco é ajudar as pequenas empresas e empresarios a criar seu primeiro site institucional. Temos em nossa visão crescimento, para um dia se tornar uma grande empresa de desenvolvimento de softwares e sites</p>
-
-                <img src="{{asset('images/logo.png')}}" alt="">
-            </div>
-        </div>
-    </div>
-
-    <div id="parallax2" class="parallax-container">
-        <div class="parallax"><img src="{{asset('images/parallax1.jpg')}}"></div>
-    </div>
 
     <div id="solicite">
         <h3 class="center">Solicite seu site</h3>
-        <div class="row center">
-            <div class="col m4 offset-m4">
+        <div class="row">
+            <div class="center col m4 offset-m4 offset-s1">
                 <p>Solicite orçamento através do email e retornaremos com as melhores propostas</p>
                 <p><i class="fas fa-envelope"></i> contato@vortexsites.com.br</p>
             </div>
         </div>
     </div>
+    <br>
 
-    
+
+    <div id="sobre">
+        <h3 class="center">Sobre nós</h3>
+        <div class="row">
+            <div class="center col m4 offset-m4">
+                <p>Nosso foco é ajudar as pequenas empresas e empresários a criar seu site institucional, atraindo mais clientes e realizando uma melhor divulgação da sua marca.</p>
+                <img src="{{asset('images/logo.png')}}" alt="">
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
     <div id="parallax1" class="parallax-container">
         <div class="parallax"><img src="{{asset('images/parallax1.jpg')}}"></div>
     </div>
