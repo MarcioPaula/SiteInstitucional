@@ -18,7 +18,7 @@
             <form action="{{route('email')}}">
 
                 <div class="input-field">
-                    <input placeholder="Nome" required id="first_name" type="text" class="validate">
+                    <input placeholder="Nome" required id="nome" name="nome" type="text" class="validate">
                     <label for="first_name">Nome completo</label>
                 </div>
                 <br>
@@ -28,7 +28,7 @@
                 </div>
                 <br>
                 <div class="input-field">
-                    <input placeholder="Telefone" required id="first_name" type="number" class="validate">
+                    <input placeholder="Telefone" required id="telefone" name="telefone" type="number" class="validate">
                     <label for="first_name">Telefone</label>
                 </div>
                 <br>

@@ -27,7 +27,7 @@ Route::get('/Solicitar', function () {
 Route::get('/test', function(Request $req)
 {
     $dados = $req->all();
-    $beautymail = app()->make(Snowfire\Beautymail\Beautymail::class);
+    $beautymail = app()->make(Snowfire\Beautymail\Beautymail::class, ['settings' => ]);
     $beautymail->send('emails.contato', compact('dados'), function($message) use ($dados)
     {
         $message

@@ -1,20 +1,38 @@
-@extends('beautymail::templates.widgets')
+@extends('beautymail::templates.minty')
 
 @section('content')
 
-    @include('beautymail::templates.widgets.articleStart')
+    @include('beautymail::templates.minty.contentStart')
+    <tr>
+        <td class="title">
+           Nova solicitação de orçamento
+        </td>
+    </tr>
+    <tr>
+        <td width="100%" height="10"></td>
+    </tr>
+    <tr>
+        <td class="paragraph">
+            <b>Solicitante:</b>{{$dados['nome']}}<br><br>
+            <b>Email:</b>{{$dados['email']}}<br><br>
+            <b>Telefone:</b>{{$dados['telefone']}}
+        </td>
+    </tr>
+    <tr>
+        <td width="100%" height="25"></td>
+    </tr>
 
-    <h4 class="secondary"><strong>Hello World</strong></h4>
-    <p>Nova solicitação do email: {{$dados['email']}}</p>
-
-    @include('beautymail::templates.widgets.articleEnd')
-
-
-    @include('beautymail::templates.widgets.newfeatureStart')
-
-    <h4 class="secondary"><strong>Hello World again</strong></h4>
-    <p>This is another test</p>
-
-    @include('beautymail::templates.widgets.newfeatureEnd')
+    <tr>
+        <td width="100%" height="25"></td>
+    </tr>
+    <tr>
+        <td>
+            @include('beautymail::templates.minty.button', ['text' => 'Sign in', 'link' => '#'])
+        </td>
+    </tr>
+    <tr>
+        <td width="100%" height="25"></td>
+    </tr>
+    @include('beautymail::templates.minty.contentEnd')
 
 @stop
