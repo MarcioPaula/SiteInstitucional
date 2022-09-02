@@ -23,7 +23,7 @@
                 </div>
                 <br>
                 <div class="input-field">
-                    <input placeholder="Email" required id="first_name" type="email" class="validate">
+                    <input placeholder="Email" required id="email" name="email" type="email" class="validate">
                     <label for="first_name">Email</label>
                 </div>
                 <br>

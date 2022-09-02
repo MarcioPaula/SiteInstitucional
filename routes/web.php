@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\OrcamentoController;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,12 +23,17 @@ Route::get('/Solicitar', function () {
     return view('solicitar');
 })->name('solicitar');
 
-Route::get('/Solicitar/email', function (){
 
-    $user = new stdClass();
-    $user->name = 'Márcio';
-    $user->email = 'marciogspaula@gmail.com';
-    \Illuminate\Support\Facades\Mail::send(new \App\Mail\orcamento($user));
-
-
+Route::get('/test', function(Request $req)
+{
+    $dados = $req->all();
+    $beautymail = app()->make(Snowfire\Beautymail\Beautymail::class);
+    $beautymail->send('emails.contato', compact('dados'), function($message) use ($dados)
+    {
+        $message
+            ->from('orcamento@vortexsites.com.br','')
+            ->to('orcamento@vortexsites.com.br', 'John Smith')
+            ->subject('Nova solicitação de orçamento');
+    });
+    return view('solicitar');
 })->name('email');

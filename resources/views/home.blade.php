@@ -14,7 +14,7 @@
 
                 <div class="col s11 m3 offset-m1 ">
                     <div class="card">
-                        <a href="#solicite">
+                        <a href="{{route('solicitar')}}">
                         <div class="card-image">
                             <img height="200" src="{{asset('images/solicite.jpg')}}">
                             <span class="card-title black">Solicite o seu site</span>
@@ -65,17 +65,6 @@
         </div>
     </div> -->
 
-
-    <div id="solicite">
-        <h3 class="center">Solicite seu site</h3>
-        <div class="row">
-            <div class="center col m4 offset-m4 offset-s1">
-                <p>Solicite orçamento através do email e retornaremos com as melhores propostas</p>
-                <p><i class="fas fa-envelope"></i> contato@vortexsites.com.br</p>
-            </div>
-        </div>
-    </div>
-    <br>
 
 
     <div id="sobre">
